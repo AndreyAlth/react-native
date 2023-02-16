@@ -1,5 +1,6 @@
 // import TiposBasicos from "./typescript/TiposBasicos"
 
+import { Formularios } from "./components/Formularios"
 import { Usuarios } from "./components/Usuarios"
 
 // import { Contador } from "./components/Contador";
@@ -18,7 +19,8 @@ const App = () => {
       {/* <Funciones/> */}
       {/* <Contador /> */}
       {/* <Login/> */}
-      <Usuarios />
+      {/* <Usuarios /> */}
+      <Formularios />
     </div>
   )
 }
